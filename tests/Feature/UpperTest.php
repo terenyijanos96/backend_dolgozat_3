@@ -36,7 +36,7 @@ class UpperTest extends TestCase
     public function test_upper_delete(): void
     {
 
-        $response = $this->delete('api/uppers/9');
+        $response = $this->delete('api/uppers/10');
 
         $response->assertStatus(200);
     }
